@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CTRACK — Personal Investment Journal</title>
+<meta name="description" content="CTRACK is a privacy-first personal investment journal for self-directed investors. Track portfolios, log trades, and explore interactive candlestick charts — all stored locally on your device." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">C</span>
+      <span class="brand-name">CTRACK</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Personal Investment Journal</span>
+        <h1>Log every decision.<br />Own your numbers.</h1>
+        <p class="lead">
+          CTRACK is a privacy-first journal for self-directed investors. Record trades,
+          track watchlist signals, and explore hand-rendered candlestick charts — without
+          signing up, syncing to the cloud, or sharing a single trade.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="support.html">Get Support</a>
+          <a class="btn btn-ghost" href="privacy.html">Read our Privacy Promise</a>
+        </div>
+        <ul class="trust-list" aria-label="Privacy highlights">
+          <li><span aria-hidden="true">&#10003;</span> No account. No login.</li>
+          <li><span aria-hidden="true">&#10003;</span> No cloud sync. No tracking.</li>
+          <li><span aria-hidden="true">&#10003;</span> 100% on-device storage.</li>
+        </ul>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="screen-row">
+              <div class="symbol">AAPL</div>
+              <div class="price up">$231.48 <span>+1.24%</span></div>
+            </div>
+            <div class="candles">
+              <div class="candle up" style="height:42%"></div>
+              <div class="candle down" style="height:30%"></div>
+              <div class="candle up" style="height:55%"></div>
+              <div class="candle up" style="height:48%"></div>
+              <div class="candle down" style="height:36%"></div>
+              <div class="candle up" style="height:62%"></div>
+              <div class="candle up" style="height:70%"></div>
+              <div class="candle down" style="height:44%"></div>
+              <div class="candle up" style="height:78%"></div>
+            </div>
+            <div class="screen-grid">
+              <div class="metric"><span>Market Value</span><strong>$48,219</strong></div>
+              <div class="metric"><span>Day Change</span><strong class="up">+$612</strong></div>
+              <div class="metric"><span>Unrealized P/L</span><strong class="up">+$5,402</strong></div>
+              <div class="metric"><span>Realized P/L</span><strong class="up">+$1,180</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2>Built for serious investors</h2>
+      <p class="section-lead">
+        A tactile, information-dense companion that turns every transaction, watchlist
+        star, and chart interaction into a durable record of your decision-making process.
+      </p>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">&#128200;</div>
+          <h3>Interactive Candlestick Charts</h3>
+          <p>Hand-rendered in SwiftUI using Canvas and gesture primitives. Long-press to drag a crosshair and read OHLC, volume, and timestamp at any point.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">&#128203;</div>
+          <h3>Trade Journal</h3>
+          <p>Filterable buy, sell, and dividend timeline. Attach photos of confirmations or statements directly to each transaction.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">&#9733;</div>
+          <h3>Watchlist &amp; Alerts</h3>
+          <p>Curate leading U.S. equities, star the symbols you care about, and set price alerts that respect your time.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">&#127942;</div>
+          <h3>Portfolio Analytics</h3>
+          <p>Real-time market value, cost basis, day change, unrealized &amp; realized P/L, and a sector allocation donut.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">&#128190;</div>
+          <h3>CSV Export</h3>
+          <p>Export your entire journal to CSV for taxes, reviews, or your own spreadsheet workflow. You always own your data.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">&#128274;</div>
+          <h3>Privacy by Design</h3>
+          <p>No sign-up, no login, no cloud sync, no notifications, and no biometric prompts. Every record lives only on this device.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="promise">
+    <div class="container promise-grid">
+      <div>
+        <h2>A journaling companion, not a brokerage</h2>
+        <p>
+          CTRACK does not execute trades, custody funds, or provide investment advice.
+          It is an educational journaling tool that helps you keep a clean, honest
+          record of your own decisions. An in-app disclaimer reminds you of this on
+          every launch.
+        </p>
+        <p>
+          Market data shown in CTRACK is provided for informational purposes only and
+          may be delayed or inaccurate. Always verify with your brokerage before
+          acting on any figure you see in the app.
+        </p>
+      </div>
+      <aside class="promise-card">
+        <h3>What we never do</h3>
+        <ul>
+          <li>Collect personal data</li>
+          <li>Require an account</li>
+          <li>Sync your journal to a server</li>
+          <li>Send notifications</li>
+          <li>Track you across other apps</li>
+          <li>Show third-party advertising</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container cta-inner">
+      <h2>Questions, feedback, or feature ideas?</h2>
+      <p>We read every email. Reach out and we will get back to you.</p>
+      <a class="btn btn-primary" href="mailto:berrakcantavan@gmail.com">berrakcantavan@gmail.com</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand">
+        <span class="brand-mark">C</span>
+        <span class="brand-name">CTRACK</span>
+      </div>
+      <p class="footer-tag">A personal investment journal for self-directed investors.</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="mailto:berrakcantavan@gmail.com">Contact</a>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <small>&copy; 2026 CTRACK. All rights reserved.</small>
+  </div>
+</footer>
+</body>
+</html>
